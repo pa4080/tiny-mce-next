@@ -23,7 +23,7 @@ export default function Home() {
           id="tiny-mce-editor"
           tinymceScriptSrc={process.env.NEXT_PUBLIC_Tiny_Mce_Path}
           onInit={(_evt, editor) => (editorRef.current = editor)}
-          initialValue="<p>This is the initial content of the editor.</p>"
+          initialValue="<span class='editable'>SOME TEXT</span>"
           init={{
             init_instance_callback: onLoad,
             height: 500,
@@ -60,7 +60,7 @@ export default function Home() {
               "wordcount",
             ],
             toolbar:
-              "undo redo | bold italic underline | fontselect fontsizeselect formatselect | alignleft aligncenter alignright | numlist bullist | forecolor backcolor | link anchor | media | removeformat help",
+              "undo redo | bold italic underline | fontselect fontsizeselect formatselect | alignleft aligncenter alignright | numlist bullist | forecolor backcolor | link anchor | image media | styles | removeformat help",
             paste_as_text: false,
             paste_block_drop: true,
             paste_data_images: true,
