@@ -1,3 +1,24 @@
 {
-  "cSpell.words": ["tinymce"]
+  "cSpell.words": [
+    "advlist",
+    "advtab",
+    "aligncenter",
+    "alignleft",
+    "alignright",
+    "backcolor",
+    "bullist",
+    "charmap",
+    "elementpath",
+    "fontselect",
+    "fontsizeselect",
+    "forecolor",
+    "formatselect",
+    "insertdatetime",
+    "noneditable",
+    "numlist",
+    "searchreplace",
+    "tinymce",
+    "visualblocks",
+    "wordcount"
+  ]
 }
